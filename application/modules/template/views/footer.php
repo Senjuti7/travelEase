@@ -45,7 +45,7 @@
   <div class="container">
     <div class="row">
       <!-- Brand Info -->
-      <div class="col-lg-4 mb-4">
+      <div class="col-lg-6 mb-4">
         <span class="text-brand3 mb-4 fs-3">TravelEase</span>
         <p>
           With over 10 years in the travel industry, TravelEase has been helping travelers explore the world with confidence. We specialize in affordable flights, personalized travel packages, and exceptional customer service.
@@ -67,7 +67,7 @@
       </div>
 
       <!-- Quick Links -->
-      <div class="col-lg-2 col-md-4 mb-4">
+      <!-- <div class="col-lg-2 col-md-4 mb-4">
         <span class="text-brand3 mb-4 fs-4">Quick Links</span>
         <ul class="list-unstyled">
           <li class="mb-2"><a href="<?= site_url('') ?>" class="footer-link">Home</a></li>
@@ -76,10 +76,10 @@
           <li class="mb-2"><a href="<?= site_url('destinations') ?>" class="footer-link">Destinations</a></li>
           <li class="mb-2"><a href="<?= site_url('contact') ?>" class="footer-link">Contact</a></li>
         </ul>
-      </div>
+      </div> -->
 
       <!-- Services -->
-      <div class="col-lg-3 col-md-4 mb-4">
+      <!-- <div class="col-lg-3 col-md-4 mb-4">
         <span class="text-brand3 mb-4 fs-4">Our Services</span>
         <ul class="list-unstyled">
           <li class="mb-2"><a href="<?= site_url('flights') ?>" class="footer-link">Flights Booking</a></li>
@@ -87,10 +87,10 @@
           <li class="mb-2"><a href="<?= site_url('hotels') ?>" class="footer-link">Hotel Reservations</a></li>
           <li class="mb-2"><a href="<?= site_url('custom-tours') ?>" class="footer-link">Custom Tours</a></li>
         </ul>
-      </div>
+      </div> -->
 
       <!-- Contact -->
-      <div class="col-lg-3 col-md-4 mb-4">
+      <div class="col-lg-6 col-md-4 mb-4">
         <span class="text-brand3 mb-4 fs-4">Contact Us</span>
         <ul class="list-unstyled">
           <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-brand3"></i>123 Travel Street, Mumbai, India</li>
