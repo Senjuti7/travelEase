@@ -34,8 +34,9 @@
 </section>
 
 <?php $this->load->view('home/boxes.php'); ?>
+<?php $this->load->view('home/plan.php'); ?>
 <?php $this->load->view('home/choose.php'); ?>
 
-<?php $this->load->view('home/plan.php'); ?>
+
 <?php $this->load->view('home/about.php'); ?>
 <?php $this->load->view('template/faq.php'); ?>

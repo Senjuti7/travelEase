@@ -17,10 +17,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link active" aria-current="page" href="<?= site_url('') ?>">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#city">City</a>
+                    <a class="nav-link" href="<?= site_url('our-branches') ?>">City</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#services">Services</a>

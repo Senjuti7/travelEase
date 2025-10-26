@@ -7,6 +7,6 @@ $route["photo-gallery"]="gallery/photo_gallery";
 $route["(:any).htm"]="home/error";
 $route["our-branches"]="packers_movers/state";
 $route["packers-movers-(:any)-india"]="packers_movers/state_services/$1";
-$route["(:any)/packers-movers-(:any)"]="packers_movers/city/$1/$2";
+$route["(:any)-packers-movers-(:any)"]="packers_movers/city/$2/$1";
 
 $route['translate_uri_dashes'] = TRUE;
