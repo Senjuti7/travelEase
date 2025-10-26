@@ -1,4 +1,4 @@
-<section id="about" class="about-section py-5 mb-1">
+<section id="about" class="about-section py-5 mb-3">
   <div class="container py-4">
     <div class="text-center mb-4">
       <span class="section-subtitle text-light">About Us</span>
@@ -24,7 +24,7 @@
 <style>
 /* Background styling */
 .about-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)),
               url('assets/images/about/about.jpg') center center/cover no-repeat;
   position: relative;
 }

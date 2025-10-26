@@ -131,7 +131,7 @@ body {
 /* ------------------------------------------------------------------ */
 /* Why Choose / Features                                                */
 /* ------------------------------------------------------------------ */
-.why-choose-section {
+/* .why-choose-section {
     padding: 60px 0;
     background: var(--bg)
 }
@@ -209,7 +209,7 @@ body {
         background: transparent;
         border: none
     }
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* Plan steps (compact)                                                 */
@@ -319,7 +319,7 @@ body {
 /* ------------------------------------------------------------------ */
 /* About & Footer                                                       */
 /* ------------------------------------------------------------------ */
-.about-section {
+/* .about-section {
     padding: 60px 0;
     background: #f8f9fa
 }
@@ -329,7 +329,7 @@ body {
     color: var(--secondary);
     padding: 40px 0;
     text-align: center
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* Responsive rules                                                      */

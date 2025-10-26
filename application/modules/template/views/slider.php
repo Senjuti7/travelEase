@@ -49,7 +49,7 @@
 
 <!-- Styles -->
 <style>
-  :root {
+    :root {
     --tone: #777C6D;
     /* olive-gray */
     --secondary: #B7B89F;
@@ -67,7 +67,7 @@
 
   .hero {
     position: relative;
-    background: linear-gradient(135deg, var(--tone), var(--accent), var(--secondary));
+    background: url('assets/images/slider/slider_img3.jpg') center/cover no-repeat;
     padding: 3rem 0;
     color: white;
     z-index: 1;
@@ -78,7 +78,8 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(25, 24, 59, 0.3);
+    background: rgba(25, 24, 59, 0.45);
+    /* backdrop-filter: blur(2px); */
     z-index: -1;
   }
 
@@ -96,21 +97,34 @@
     max-width: 600px;
   }
 
+  /* ✨ Glassmorphism Form ✨ */
   .flight-form {
-    background: var(--bg);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    color: var(--text);
   }
 
   .form-control {
-    border: 1.5px solid var(--muted);
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
     border-radius: 0.5rem;
     padding: 0.6rem 0.8rem;
+    background: rgba(255, 255, 255, 0.35);
+    color: var(--primary);
     box-shadow: none;
   }
 
+  .form-control::placeholder {
+    color: rgba(25, 24, 59, 0.5);
+  }
+
   .form-control:focus {
-    border-color: var(--primary);
-    box-shadow: 0 0 0 0.2rem rgba(25, 24, 59, 0.1);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 0.2rem rgba(161, 194, 189, 0.3);
+    background: rgba(255, 255, 255, 0.45);
   }
 
   .btn-gradient {
@@ -124,6 +138,7 @@
 
   .btn-gradient:hover {
     background: linear-gradient(90deg, var(--accent), var(--primary));
-    transform: scale(1.02);
+    transform: scale(1.03);
   }
+
 </style>

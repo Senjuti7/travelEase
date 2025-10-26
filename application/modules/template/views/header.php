@@ -48,9 +48,9 @@
   <meta name="revisit-after" content="weekly"/>
   <meta name="distribution" content="global"/>
   <meta name="language" content="en"/>
-  <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/logo.png')?>">
-  <link rel="shortcut icon" href="<?= base_url('assets/images/logo/logo.png')?>">
-  <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/logo.png')?>">
+  <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/logo2.png')?>">
+  <link rel="shortcut icon" href="<?= base_url('assets/images/logo/logo2.png')?>">
+  <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/logo2.png')?>">
 
   <script type="application/ld+json">
     {
