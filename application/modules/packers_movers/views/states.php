@@ -29,7 +29,7 @@ $locations = [
   [
     'name' => 'Sikkim',
     'image' => 'sikkim.jpg',
-    'url' => site_url('sikkim'),
+    'url' => site_url('packers-movers-sikkim-india'),
     'description' => 'Known for its stunning landscapes, Sikkim is a paradise for nature lovers and adventure seekers.',
   ],
 ];
