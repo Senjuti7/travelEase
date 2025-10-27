@@ -1,7 +1,7 @@
 <section class="creative-cards style-one">
   <div class="container">
     <div class="row text-center mb-1">
-      <h2>Why Choose TravelEase?</h2>
+      <h2>Why Choose High City Travels?</h2>
       <p>We make your travel dreams come true with unbeatable service and prices</p>
 
       <!-- Card 1 -->

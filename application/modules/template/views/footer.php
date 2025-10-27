@@ -1,44 +1,3 @@
- <!-- Footer -->
- <!-- <footer class="footer">
-     <div class="container">
-         <div class="row">
-             <div class="col-md-4 mb-4">
-                 <h5 class="mb-3">
-                     <i class="fas fa-plane brand-icon me-2" aria-hidden="true"></i>TravelEase
-                 </h5>
-                 <p class="mb-0">Your trusted travel partner for amazing journeys worldwide.</p>
-             </div>
-             <div class="col-md-4 mb-4">
-                 <h6 class="mb-3">Contact Info</h6>
-                 <p class="mb-2">
-                     <i class="fas fa-phone brand-icon me-2" aria-hidden="true"></i>+91 98765 43210
-                 </p>
-                 <p class="mb-2">
-                     <i class="fas fa-envelope brand-icon me-2" aria-hidden="true"></i>info@travelease.com
-                 </p>
-                 <p class="mb-2">
-                     <i class="fas fa-map-marker-alt brand-icon me-2" aria-hidden="true"></i>123 Travel Street, Mumbai, India
-                 </p>
-             </div>
-             <div class="col-md-4 mb-4">
-                 <h6 class="mb-3">Follow Us</h6>
-                 <div class="d-flex gap-3">
-                     <a href="#" class="text-light"><i class="fab fa-facebook fa-lg brand-icon"></i></a>
-                     <a href="#" class="text-light"><i class="fab fa-twitter fa-lg brand-icon"></i></a>
-                     <a href="#" class="text-light"><i class="fab fa-instagram fa-lg brand-icon"></i></a>
-                     <a href="#" class="text-light"><i class="fab fa-linkedin fa-lg brand-icon"></i></a>
-                 </div>
-             </div>
-         </div>
-         <hr class="my-4" style="border-color: #495057;">
-         <div class="row">
-             <div class="col-12 text-center">
-                 <p class="mb-0">&copy; 2024 TravelEase. All rights reserved.</p>
-             </div>
-         </div>
-     </div>
- </footer> -->
-
 
  <!-- Footer -->
 <footer class="footer-section text-white pt-5">
@@ -46,9 +5,9 @@
     <div class="row">
       <!-- Brand Info -->
       <div class="col-lg-6 mb-4">
-        <span class="text-brand3 mb-4 fs-3">TravelEase</span>
+        <span class="text-brand3 mb-4 fs-3">High City Travels</span>
         <p>
-          With over 10 years in the travel industry, TravelEase has been helping travelers explore the world with confidence. We specialize in affordable flights, personalized travel packages, and exceptional customer service.
+          With over 10 years in the travel industry, High City Travels has been helping travelers explore the world with confidence. We specialize in affordable flights, personalized travel packages, and exceptional customer service.
         </p>
         <div class="mt-3 d-flex gap-3">
           <a href="https://facebook.com/" target="_blank" class="social-icon">
@@ -95,7 +54,7 @@
         <ul class="list-unstyled">
           <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-brand3"></i>123 Travel Street, Mumbai, India</li>
           <li class="mb-2"><i class="fas fa-phone me-2 text-brand3"></i>+91 98765 43210</li>
-          <li class="mb-2"><i class="fas fa-envelope me-2 text-brand3"></i>info@travelease.com</li>
+          <li class="mb-2"><i class="fas fa-envelope me-2 text-brand3"></i>info@High City Travels.com</li>
         </ul>
       </div>
     </div>
@@ -106,7 +65,7 @@
     <!-- Bottom -->
     <div class="row">
       <div class="col-12 text-center">
-        <p class="mb-0">&copy; 2025 TravelEase. All Rights Reserved.</p>
+        <p class="mb-0">&copy; 2025 High City Travels. All Rights Reserved.</p>
       </div>
     </div>
   </div>

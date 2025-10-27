@@ -4,7 +4,7 @@
     <div class="row align-items-center">
       <!-- Left Text Section -->
       <div class="col-lg-7 mb-5 mb-lg-0">
-        <h1>TravelEase –</h1>
+        <h1>High City Travels –</h1>
         <p>
           We specialize in providing affordable flight options, personalized travel packages, and exceptional
           customer service.

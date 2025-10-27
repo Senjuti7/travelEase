@@ -7,7 +7,7 @@
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <p class="about-text text-white">
-          <span class="fw-bold text-brand">TravelEase</span> has been guiding travelers for over 10 years, offering affordable flights, personalized travel packages, and outstanding customer support. Our mission is to make every journey seamless and memorable.
+          <span class="fw-bold text-brand">High City Travels</span> has been guiding travelers for over 10 years, offering affordable flights, personalized travel packages, and outstanding customer support. Our mission is to make every journey seamless and memorable.
         </p>
         <p class="about-text text-white">
           Our dedicated team works tirelessly to find the best deals and ensure a smooth booking experience. Whether it’s a domestic escape or an international adventure, we’re here to make your travel dreams come true.
