@@ -115,7 +115,7 @@ $state = ucwords($state);
                 $statename = urlencode(strtolower(str_replace(" ", "-", $st)));
                 ?>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-                    <a href="<?= site_url("$statename/packers-movers-$link") ?>" class="city-card-link d-block h-100">
+                    <a href="<?= site_url("$link-packers-movers-$statename") ?>" class="city-card-link d-block h-100">
                         <div class="city-card card border-0 shadow h-100">
                             <div class="card-body">
                                 <!-- Icon -->
