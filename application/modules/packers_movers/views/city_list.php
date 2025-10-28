@@ -5,7 +5,7 @@ $state = ucwords($state);
 ?>
 
 <section id="slider" class="position-relative hero-banner py-5"
-    style="background: url('<?= base_url("assets/images/home/process2.jpg") ?>') center center/cover no-repeat;">
+    style="background: url('<?= base_url("assets/images/breadcrumb/breadcrumbImg.jpg") ?>') center center/cover no-repeat;">
     <!-- Overlay -->
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.6); z-index:1;"></div>
 
@@ -21,10 +21,10 @@ $state = ucwords($state);
                         Home
                     </a>
                 </li>
-                <li class="breadcrumb-item active text-warning" aria-current="page">
+                <li class="breadcrumb-item active text-light" aria-current="page">
                     <a class="text-decoration-none text-white" href="<?= site_url('our-branches') ?>">Our Branches</a>
                 </li>
-                <li class="breadcrumb-item active text-warning" aria-current="page">
+                <li class="breadcrumb-item active text-light" aria-current="page">
                     <?= $state ?>
                 </li>
             </ol>
@@ -105,7 +105,7 @@ $state = ucwords($state);
 </style>
 
 <div class="our-service-page"
-    style="background-image:url('<?= base_url() ?>assets/images/location/location-background.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+     style="background-image:url('<?= base_url() ?>assets/images/location/location-background.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">
     <div class="container feature-content-section">
         <div class="row">
             <?php
@@ -115,12 +115,13 @@ $state = ucwords($state);
                 $statename = urlencode(strtolower(str_replace(" ", "-", $st)));
                 ?>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-                    <a href="<?= site_url("$link-packers-movers-$statename") ?>" class="city-card-link d-block h-100">
+                    <a href="<?= site_url("$link-packers-movers-$statename") ?>"
+                       class="city-card-link d-block h-100">
                         <div class="city-card card border-0 shadow h-100">
                             <div class="card-body">
                                 <!-- Icon -->
                                 <div class="icon">
-                                    <i class="fa-solid fa-location-dot display-4 text-brand" alt="<?= $ct['nm'] ?>"></i>
+                                    <i class="fa-solid fa-plane display-4 text-brand" alt="<?= $ct['nm'] ?>"></i>
                                 </div>
                                 <!-- City Title -->
                                 <div class="city-name">

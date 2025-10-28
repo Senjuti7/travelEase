@@ -8,8 +8,7 @@
         <div class="booking-text">
           <h2 class="title mb-3">Plan Your Perfect Journey</h2>
           <p class="text-muted mb-4">
-            Whether you're exploring the beauty of India or traveling abroad, we help you find the best flights,
-            deals, and travel experiences. Pick your destination and let us craft your trip effortlessly.
+            Whether you’re discovering the wonders of India or setting off on an international adventure, we make travel planning effortless. Choose your destination, and we’ll handle the rest — from the best flight options to unforgettable travel experiences.
           </p>
           <ul class="booking-highlights">
             <li><i class="fas fa-check-circle me-2"></i>Exclusive flight offers</li>
