@@ -1,7 +1,7 @@
 <section class="creative-cards style-one">
   <div class="container">
     <div class="row text-center mb-1">
-      <h2>Why Choose High City Travels?</h2>
+      <span class="fw-bold fs-2">Why Choose High City Travels?</span >
       <p>We make your travel dreams come true with unbeatable service and prices</p>
 
       <!-- Card 1 -->
@@ -10,9 +10,9 @@
           <div class="card-icons">
             <i class="fa-solid fa-plane-departure"></i>
           </div>
-          <h3><a href="#">Cheapest Rates</a></h3>
+          <span class="d-block fs-3 fw-bold">Cheapest Rates</span>
           <p>We monitor fares across carriers and apply our price-match promise so you get the best available deal.</p>
-          <a class="read-more-btn" href="#"><i class="fa-solid fa-angles-right"></i></a>
+          <a class="read-more-btn" href="<?= site_url('our-branches') ?>"><i class="fa-solid fa-angles-right"></i></a>
         </div>
       </div>
 
@@ -22,9 +22,9 @@
           <div class="card-icons">
             <i class="fa-solid fa-route"></i>
           </div>
-          <h3><a href="#">Flexible Routes</a></h3>
+          <span class="d-block fs-3 fw-bold">Flexible Routes</span>
           <p>Create multi-city itineraries, change dates easily, and explore off-the-beaten-path connections.</p>
-          <a class="read-more-btn" href="#"><i class="fa-solid fa-angles-right"></i></a>
+          <a class="read-more-btn" href="<?= site_url('our-branches') ?>"><i class="fa-solid fa-angles-right"></i></a>
         </div>
       </div>
 
@@ -34,9 +34,9 @@
           <div class="card-icons">
             <i class="fa-solid fa-headset"></i>
           </div>
-          <h3><a href="#">24/7 Support</a></h3>
+          <span class="d-block fs-3 fw-bold">24/7 Support</span>
           <p>Our travel experts are available anytime to help with bookings, changes, and local advice.</p>
-          <a class="read-more-btn" href="#"><i class="fa-solid fa-angles-right"></i></a>
+          <a class="read-more-btn" href="<?= site_url('our-branches') ?>"><i class="fa-solid fa-angles-right"></i></a>
         </div>
       </div>
     </div>

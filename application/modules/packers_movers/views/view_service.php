@@ -49,7 +49,37 @@ foreach ($cities as $ct) {
         </nav>
     </div>
 </section>
+
+
 <?php $this->load->view('home/plan.php'); ?>
+<section class="map-contact-section py-5 bg-white">
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col-lg-8 mb-4">
+                <div class="section-heading mb-3">
+                    <span class="fw-600 fs-2">Find Our Branch in <?= html_escape($city) ?></span>
+                </div>
+
+                <div class="map-wrapper" style="border-radius:8px;overflow:hidden;box-shadow:0 6px 24px rgba(0,0,0,0.08);">
+                    <iframe
+                        src="https://www.google.com/maps?q=<?= $lat ?>,<?= $lon ?>&z=13&output=embed"
+                        width="100%" height="420" style="border:0;" allowfullscreen loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="info-card p-4" style="border-radius:8px; background:#f8f9fa; box-shadow:0 4px 18px rgba(0,0,0,0.04);">
+                    <span class="fw-bold fs-4 mb-3">Tours & Travel Booking</span>
+                    <p class="mb-2">Planning a trip? We offer end-to-end tour and travel services tailored to your needs. From hotel bookings and transfers to curated sightseeing and custom itineraries — we've got you covered.</p>
+                    <p class="mb-2">Our local experts suggest the best routes and experiences so you can travel stress-free. Competitive pricing and 24/7 support ensure a smooth journey.</p>
+                    <p class="mb-0">Ready to start? Click below to request a personalized quote and one of our travel advisors will reach out shortly.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php $this->load->view('home/about.php'); ?>
 <?php $this->load->view('home/choose.php'); ?>
 

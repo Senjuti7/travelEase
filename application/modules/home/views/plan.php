@@ -6,7 +6,7 @@
       <!-- Left Text Section -->
       <div class="col-lg-6">
         <div class="booking-text">
-          <h2 class="title mb-3">Plan Your Perfect Journey</h2>
+          <span class="title mb-3 fs-2">Plan Your Perfect Journey</span>
           <p class="text-muted mb-4">
             Whether you’re discovering the wonders of India or setting off on an international adventure, we make travel planning effortless. Choose your destination, and we’ll handle the rest — from the best flight options to unforgettable travel experiences.
           </p>

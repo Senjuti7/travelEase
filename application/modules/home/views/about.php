@@ -2,7 +2,7 @@
   <div class="container py-4">
     <div class="text-center mb-4">
       <span class="section-subtitle text-light">About Us</span>
-      <h2 class="section-title text-white">Helping Travelers Explore the World with Confidence</h2>
+      <span class="section-title text-white fs-1 fw-bold">Helping Travelers Explore the World with Confidence</span>
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-10">
