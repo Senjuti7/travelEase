@@ -52,8 +52,8 @@
       <div class="col-lg-6 col-md-4 mb-4">
         <span class="text-brand3 mb-4 fs-4">Contact Us</span>
         <ul class="list-unstyled">
-          <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-brand3"></i>123 Travel Street, Mumbai, India</li>
-          <li class="mb-2"><i class="fas fa-phone me-2 text-brand3"></i>+91 98765 43210</li>
+          <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-brand3"></i>M.G Marg Gangtok, Sikkim</li>
+          <li class="mb-2"><i class="fas fa-phone me-2 text-brand3"></i>+91 91664 42597</li>
           <li class="mb-2"><i class="fas fa-envelope me-2 text-brand3"></i>info@High City Travels.com</li>
         </ul>
       </div>

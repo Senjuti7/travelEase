@@ -32,6 +32,18 @@ $locations = [
     'url' => site_url('packers-movers-sikkim-india'),
     'description' => 'Known for its stunning landscapes, Sikkim is a paradise for nature lovers and adventure seekers.',
   ],
+  [
+    'name' => 'west-bengal',
+    'image' => 'wb.webp',
+    'url' => site_url('packers-movers-west-bengal-india'),
+    'description' => 'Known for its rich culture and heritage, West Bengal is a vibrant state with a lot to offer.',
+  ],
+  [
+    'name' => 'rajasthan',
+    'image' => 'rajasthan.jpg',
+    'url' => site_url('packers-movers-rajasthan-india'),
+    'description' => 'Known for its royal heritage and vibrant culture, Rajasthan is a popular destination for travelers seeking history and adventure.',
+  ],
 ];
 ?>
 

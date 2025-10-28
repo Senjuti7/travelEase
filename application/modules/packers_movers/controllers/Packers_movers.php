@@ -1,4 +1,5 @@
-<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
 class Packers_movers extends MX_Controller
 {
 
@@ -13,7 +14,7 @@ class Packers_movers extends MX_Controller
     function state()
     {
         $data['title'] = "All India Service " . $this->comp['company3'];
-        $data['description'] = $this->comp['company3'] . " is best packers and movers service provider.";
+        $data['description'] = $this->comp['company3'] . " affordable tour packages, flight deals, and hotel bookings to make your trip unforgettable.";
         $data['module'] = "packers_movers";
         $data['view_file'] = "states";
         echo Modules::run('template/layout2', $data);
@@ -35,7 +36,7 @@ class Packers_movers extends MX_Controller
         echo Modules::run('template/layout2', $data);
     }
     function get_title($city, $state)
-    { 
+    {
         $seo = array(
             // "Siliguri" => array(
             //     "title" => "",
@@ -49,9 +50,10 @@ class Packers_movers extends MX_Controller
         }
         //edit by Arshad 15-11-2024
         return array(
-            'title' => "",
-            "desc" => ""
+            'title' => "Book Holiday Packages & Travel Deals | " . $this->comp['company3'],
+            "desc" => "Plan your perfect trip with " . $this->comp['company3'] . ". Explore top destinations, find affordable tour packages, and enjoy stress-free travel bookings for flights, hotels, and holidays."
         );
+
     }
     function city($state = 'Bihar', $city = 'Patna')
     {
@@ -61,21 +63,19 @@ class Packers_movers extends MX_Controller
         $city = str_replace("_", " ", $city);
         $city = urldecode(ucwords(str_replace("-", " ", $city)));
         $seo = $this->get_title($city, $state);
-        $statelink=strtolower($state);
+        $statelink = strtolower($state);
         $data = array(
             "city" => $city,
             "state" => $state,
             'img' => base_url('assets') . "/images/state/google/$statelink.png",
             "title" => $seo['title'],
             "description" => $seo['desc'],
-            "keywords" => "movers and packers in $city, Movers Packers $city, Movers near me $city, Packers and movers in $city, Moving companies near me $city, Movers $city, Packers and movers near me $city",
-            "Removal companies in $city, Moving services in $city, Cheap movers in $city, Local movers in $city, Local moving companies in $city",
-            "$city best moving companies, House movers $city, Packers movers $city, Moving services near $city, House removals $city, Cheap moving companies in $city",
-            "Professional movers in $city, House movers near $city, Cheap movers $city, Best packers and movers in $city, Affordable movers $city, International movers from $city, International moving companies in $city",
+            "keywords" => "travel packages in $city, tour packages $city, holiday trips $city, flights to $city, hotels in $city, vacation deals $city, trip planner $city, best travel agency in $city, explore $city tourism, " . $this->comp['company3'] . " tours $city, $state destinations, weekend getaways $city, travel guide $city, sightseeing in $city, adventure tours $city, honeymoon packages $city, budget travel $city, family trips $city, local attractions in $city, international tours from $city",
+
             "module" => "packers_movers",
             "view_file" => "view_service",
         );
         echo Modules::run('template/layout2', $data);
     }
-   
+
 }

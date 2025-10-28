@@ -51,14 +51,14 @@ class MX_Controller
         $this->load = clone load_class('Loader');
         $this->load->initialize($this);
 
-        $this->comp['phone'] = '+919546253098';
-        $this->comp['phonehtml'] = 'tel:+91 9546253098';
-        $this->comp['supportmail'] = 'support@arshad.in';
-        $this->comp['replyToMail'] = 'info@arshad.in';
-        $this->comp['mail'] = 'arshadm@gmail.com';
-        $this->comp['mailhtml'] = "mailto:arshadm@gmail.com";
-        $this->comp['company3'] = 'Groveus';
-        $this->comp['companydomain'] = 'groveus.com';
+        $this->comp['phone'] = '+91 91664 42597';
+        $this->comp['phonehtml'] = 'tel:+91 91664 42597';
+        $this->comp['supportmail'] = 'support@info.in';
+        $this->comp['replyToMail'] = 'info@info.in';
+        $this->comp['mail'] = 'info@gmail.com';
+        $this->comp['mailhtml'] = "mailto:info@gmail.com";
+        $this->comp['company3'] = 'HighCity';
+        $this->comp['companydomain'] = 'highcity.com';
 
         $this->comp['facebookhtml'] = "";
         $this->comp['youtubehtml'] = "";
@@ -67,22 +67,22 @@ class MX_Controller
         $this->comp['linkedinhtml'] = "";
         $this->comp['whatsapphtml'] = "";
 
-        $this->comp['address'] = "<address>1st floor Road No 1 Near Bank of India Ramkrishna Nagar Patna (800027)</address>";
-        $this->comp['address1'] = "1st floor Road No 1 Near Bank of India";
-        $this->comp['address2'] = "Ramkrishna Nagar Patna";
-        $this->comp['addressRegion'] = "Patna";
-        $this->comp['postalCode'] = "800027";
-        $this->comp['companystate'] = "Bihar";
-        $this->comp['themeColor'] = "#e21b22";
+        $this->comp['address'] = "<address>M.G Marg Gangtok, Sikkim</address>";
+        $this->comp['address1'] = "M.G Marg";
+        $this->comp['address2'] = "Gangtok";
+        $this->comp['addressRegion'] = "Sikkim";
+        $this->comp['postalCode'] = "737101";
+        $this->comp['companystate'] = "Sikkim";
+        $this->comp['themeColor'] = "#19183B";
 
-        $this->comp['sku'] = "PM28957";
-        $this->comp['mpn'] = "JPM28957";
+        $this->comp['sku'] = "PM28980";
+        $this->comp['mpn'] = "JPM28980";
         // Review
         $this->comp['ratingValue'] = "4.8";
         $this->comp['ratingCount'] = "1839";
-        $this->comp['datePublished'] = "15 july, 2024";
-        $this->comp['reviewBody'] = "Jay Packers provided excellent service with their IBA-approved goods insurance. My items were securely moved, affordable, and stress-free.";
-        $this->comp['reviewperson'] = "Arshad Ali";
+        $this->comp['datePublished'] = "1 November, 2025";
+        $this->comp['reviewBody'] = "HighCity provided excellent service.";
+        $this->comp['reviewperson'] = "Nitesh Bhardwaj";
 
         /* autoload module items */
         $this->load->_autoloader($this->autoload);
